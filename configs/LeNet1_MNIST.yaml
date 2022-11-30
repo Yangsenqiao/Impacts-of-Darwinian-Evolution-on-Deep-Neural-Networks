@@ -1,0 +1,22 @@
+Adam:
+  lr: 0.01
+  decay: 0.01
+  all_epoch: 200
+DE:
+  bounds: 15
+  popsize: 20
+  mutate: 0.1
+  recomb: 0.1
+  all_epoch: 200 
+Data:
+  batch_size: 256
+  valisize: 0.1
+  dataname: MNIST
+Early:
+  patience: 10
+  delay: 10
+  threshold: 0
+  verbose: False
+  delta: 0
+model_name: LeNet1
+
